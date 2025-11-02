@@ -2,6 +2,7 @@ export interface User {
   id: string
   email: string
   name: string
+  password: string
   phone?: string
   role: "citizen" | "authority"
   department?: string
