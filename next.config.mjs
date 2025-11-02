@@ -6,6 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // required for static export
   },
+  basePath: '/ABH1DAS.github.io',
+  output: 'export',
 };
 
 export default nextConfig;
